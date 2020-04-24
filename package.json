@@ -791,7 +791,7 @@
     "compile-parser": "tsc -p ./src/parser",
     "lint": "tslint -c tslint.json --project .",
     "watch": "npm run compile -- -watch",
-    "test": "jest"
+    "test": "jest -- "
   },
   "repository": {
     "type": "git",
@@ -804,6 +804,7 @@
     "@types/node": "^9.6.35",
     "jest": "^24.7.1",
     "ts-jest": "^23.10.4",
+    "jest-junit": "^5.0.0",
     "tslint": "^5.11.0",
     "typescript": "^3.4.5",
     "vscode": "^1.1.33"
@@ -816,6 +817,9 @@
     "vscode-json-languageservice": "^3.2.0"
   },
   "jest": {
+    "setupFiles": [
+      "<rootDir>/unit-error-hack.js"
+    ],
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
@@ -826,6 +830,16 @@
       "js",
       "json",
       "jsx"
+    ],
+    "reporters": [
+      "default",
+      [
+        "jest-junit",
+        {
+          "outputDirectory": ".",
+          "outputName": "junit-unit-tests.xml"
+        }
+      ]
     ]
   }
 }
