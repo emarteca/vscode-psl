@@ -1,0 +1,121 @@
+Parameter tests No literal
+ does match ZRPC1.PROC
+ parse document method count
+Parameter tests One diagnostic third start
+ does match x.psl
+ParsedDocFinder Do find reallySpecificName
+Parameter tests line 4
+ parse methods with propertydef count
+Argument Types test 2 argument 3 types newline
+Parameter tests line 6
+Members tests More than 25 characters
+Method Identifiers 1 argument
+Parameter tests Catch tree
+completion undefined 2
+type declarations mutliple type declaration equal sign
+Parameter tests oneLineDoc
+ParsedDocFinder Find method overriden method in child
+completion dot with parens
+Argument Names 2 argument multiline
+completion mumps call routine
+type declarations static type declaration
+type declarations type type declaration
+Parameter tests Catch tree with empty parens and commas
+completion undefined 3
+Parameter tests line 10
+Parameter tests line 2
+ParsedDocFinder Find dummy in child
+Parameter tests No report for one param on same line
+Argument Names test label with parens 1 arg
+completion mumps call label
+Parameter tests No diagnostic with comment
+Method Identifiers Label with parens
+Method Identifiers Label with line comment
+Parameter tests Method in middle with new variable
+Parameter tests line 3
+Parameter tests Diagnostic count
+Argument Types 1 argument
+Parameter tests line 7
+Parameter tests line 1
+Members tests Starts with v
+Argument Types test 1 argument 3 types newline
+Propertydefs empty propertydef
+Method Identifiers 2 arguments
+Method Identifiers Label
+ parse numerical method
+Argument Names Label no args
+ParsedDocFinder Find y in methodInChild
+Argument Names 1 argument multiline
+Propertydefs one word propertydef
+ labels in document
+Parameter tests onlyDoc
+ parse document method location
+ParsedDocFinder Do not find reallySpecificName
+Parameter tests No diagnostic fifth start
+ parse extends
+completion dot with parens content
+Parameter tests Catch no types on params
+completion clusterfuck
+ TodoInfo match A.PROC
+completion dot with parens content on dot
+completion dot with parens content with parens
+Parameter tests Catch tree with empty parens
+completion basic dot
+Table and Column Documentation tests Table documentation
+Argument Names 2 argument multitype
+Argument Names 1 argument multitype
+type declarations mutliple type declaration
+completion single reference
+Parameter tests line 12
+Parameter tests allProblems
+completion two dots
+Parameter tests line 13
+Argument Names 1 argument
+Parameter tests line 5
+Method Identifiers inline label statement keyword
+Parameter tests line 8
+completion undefined
+Argument Names Label with parens no args
+Parameter tests line 9
+Method Identifiers Label with 2 arguments multiline
+ parse psl package
+type declarations method declarations
+Parameter tests line 11
+Members tests Property was not called 'dummy'
+ParsedDocFinder Find property in child
+Parameter tests One diagnostic second start
+Parameter tests No diagnostic first start
+Method Identifiers Label with 2 arguments
+Parameter tests Catch label
+ does not match ZRPC.PROC
+Argument Types 1 argument multitype
+ParsedDocFinder Find method in child
+Table and Column Documentation tests Column documentation
+type declarations mutliple multitype type declaration
+Parameter tests twoLineSeparator
+Argument Types test 2 argument types newline
+Members tests Camel case literal report
+Method Identifiers inline label statement symbol
+Argument Names Label with multiline parens no args
+Members tests Upper case literal report
+Method Identifiers percent
+Method Identifiers Label with 1 argument
+completion clusterfuck2
+Parameter tests allProblemsNoLineAbove
+ arule match A.PROC
+Argument Names 2 arguments
+Parameter tests twoLineDoc
+ parse methods with propertydef
+ParsedDocFinder Find method inherited method in parent
+Method Identifiers Label from document
+Members tests Property was called 'dummy'
+ParsedDocFinder Find method in parent
+Parameter tests onlySeparator
+Parameter tests withEverything
+Parameter tests No report for no params
+Parameter tests Two reports for two params
+completion empty
+Parameter tests line 14
+Members tests Public starts with v
+type declarations basic type declaration
+ParsedDocFinder Do not find x
